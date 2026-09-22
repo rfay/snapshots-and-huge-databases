@@ -44,12 +44,3 @@
 - [ ] Show the action running
 - [ ] Show real situation
 
----
-
-## Next Steps
-
-Edit this file (`slides/snapshots-and-huge-databases.md`) to fill in each section as the training content is built out.
-
-- Use `---` to create new slides
-- Add images from the `images/` directory
-- See [reveal.js documentation](https://revealjs.com/) for more features
