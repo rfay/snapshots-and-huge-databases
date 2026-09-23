@@ -25,31 +25,47 @@
 ## Snapshots
 
 - Basic demo: `ddev snapshot`, `ddev snapshot restore`
-- Compressed vs uncompressed snapshots
+- Compressed and uncompressed snapshots
+
+---
+
+## The Magic Snapshot Named "seed"
+
+Normally DDEV starts with a built-in snapshot in the stock DB docker image. But it has no tables or content.
+
+But you can `ddev snapshot --name=seed` and that snapshot will be used instead in the future. 
+
+This means an "empty" or fresh project will always start with that seed.
+
+It can even be checked in.
 
 ---
 
 ## `ddev pull <whatever>`
 
-- Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapshot, files, and can check a cached value before downloading
+Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapshot, files, and can check a cached value before downloading
 
 ---
 
 ## Images with Baked-In Snapshots
 
-- Images with baked snapshots
+- Moshe has been working with images with baked-in snapshots for yearas. Now it's a DDEV feature.
+- Advantages: Distribution, CI, etc
 - Example: [weitzman/dbimage](https://github.com/weitzman/dbimage) — DDEV DB image with data baked in
   - Daily GitHub Actions workflow builds and publishes the image to GHCR
   - `.ddev/commands/web/pulldb` and `resetdb` convenience commands
   - `.ddev/config.yaml` wired to use the built image
-- Alternate: build a seeded image from a snapshot — [build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
+- Alternate: build a seeded image directly from a snapshot — [build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
 
 ---
 
 ## Demonstration
 
-- Demonstration GitHub Action
-- Moshe: actual demo
+- Show the GitHub Action
 - Show the action running
 - Show real situation
+
+---
+
+## Resources
 
