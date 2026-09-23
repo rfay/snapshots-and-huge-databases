@@ -69,3 +69,9 @@ Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapsh
 
 ## Resources
 
+- Script: [build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
+- Repo: [weitzman/dbimage](https://github.com/weitzman/dbimage)
+- Blog: [DDEV Snapshots: Checkpoints, Restores, and Seeded Databases](https://ddev.com/blog/ddev-snapshots/)
+- Docs: [Database Management](https://docs.ddev.com/en/stable/users/usage/database-management/)
+- Docs: [Hosting Provider Integration (`ddev pull`)](https://docs.ddev.com/en/stable/users/providers/)
+
