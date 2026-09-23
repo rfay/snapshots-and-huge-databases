@@ -82,11 +82,11 @@ Build a seeded image directly from a snapshot:
 
 ## Resources
 
-- These slides: [rfay.github.io/snapshots-and-huge-databases](https://rfay.github.io/snapshots-and-huge-databases/)
-- Slides repo: [rfay/snapshots-and-huge-databases](https://github.com/rfay/snapshots-and-huge-databases)
+- These [slides](https://rfay.github.io/snapshots-and-huge-databases/) and their [repo](https://github.com/rfay/snapshots-and-huge-databases)
 - Script: [build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
 - Repo: [weitzman/dbimage](https://github.com/weitzman/dbimage)
 - Blog: [DDEV Snapshots: Checkpoints, Restores, and Seeded Databases](https://ddev.com/blog/ddev-snapshots/)
 - Docs: [Database Management](https://docs.ddev.com/en/stable/users/usage/database-management/)
 - Docs: [Hosting Provider Integration (`ddev pull`)](https://docs.ddev.com/en/stable/users/providers/)
+- Example Drupal11 demo_umami database images in several forms: [huge compressed](https://hub.docker.com/r/randyfay/compressed-2g/tags), [huge uncompressed](https://hub.docker.com/r/randyfay/uncompressed-2g/tags), [ordinary demo_umami install](https://hub.docker.com/r/randyfay/d11_normal/tags)
 
