@@ -49,13 +49,26 @@ Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapsh
 
 ## Images with Baked-In Snapshots
 
-- Moshe has been working with images with baked-in snapshots for yearas. Now it's a DDEV feature.
+- Moshe has been working with images with baked-in snapshots for years. Now it's a DDEV feature.
 - Advantages: Distribution, CI, etc
-- Example: [weitzman/dbimage](https://github.com/weitzman/dbimage) — DDEV DB image with data baked in
-  - Daily GitHub Actions workflow builds and publishes the image to GHCR
-  - `.ddev/commands/web/pulldb` and `resetdb` convenience commands
-  - `.ddev/config.yaml` wired to use the built image
-- Alternate: build a seeded image directly from a snapshot — [build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
+
+--
+
+## Example: `dbimage`
+
+[weitzman/dbimage](https://github.com/weitzman/dbimage) — DDEV DB image with data baked in
+
+- Daily GitHub Actions workflow builds and publishes the image to GHCR
+- `.ddev/commands/web/pulldb` and `resetdb` convenience commands
+- `.ddev/config.yaml` wired to use the built image
+
+--
+
+## Alternate: Build Your Own
+
+Build a seeded image directly from a snapshot:
+
+[build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
 
 ---
 
