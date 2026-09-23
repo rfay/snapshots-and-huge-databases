@@ -52,7 +52,7 @@ Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapsh
 - Moshe has been working with images with baked-in snapshots for years. Now it's a DDEV feature.
 - Advantages: Distribution, CI, etc
 
---
+---
 
 ## Example: `dbimage`
 
@@ -62,7 +62,7 @@ Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapsh
 - `.ddev/commands/web/pulldb` and `resetdb` convenience commands
 - `.ddev/config.yaml` wired to use the built image
 
---
+---
 
 ## Alternate: Build Your Own
 
