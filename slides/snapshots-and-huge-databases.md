@@ -69,6 +69,8 @@ Don't forget about custom `ddev pull`, which can easily pull a DB dump or snapsh
 
 ## Resources
 
+- These slides: [rfay.github.io/snapshots-and-huge-databases](https://rfay.github.io/snapshots-and-huge-databases/)
+- Slides repo: [rfay/snapshots-and-huge-databases](https://github.com/rfay/snapshots-and-huge-databases)
 - Script: [build-and-push-seeded-image.sh](https://github.com/rfay/database-performance/blob/main/scripts/build-and-push-seeded-image.sh)
 - Repo: [weitzman/dbimage](https://github.com/weitzman/dbimage)
 - Blog: [DDEV Snapshots: Checkpoints, Restores, and Seeded Databases](https://ddev.com/blog/ddev-snapshots/)
